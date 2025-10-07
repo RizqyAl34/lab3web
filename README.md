@@ -3,6 +3,50 @@
 ### Nim : 312410424
 ### Kelas : TI.24.A3
 
+## List
+1. order list
+```
+<section id="order-list">
+    <h2>Order List</h2>
+    <ol>
+        <li>Pemrograman Web</li>
+        <li>Sistem Informasi</li>
+        <li>Basis Data 2</li>
+    </ol>
+</section>
+```
+
+2. unorder list
+```
+<section id="unorder-list">
+    <h2>Unorder List</h2>
+    <ul type="circle">
+        <li>Jaringan Komputer</li>
+        <li>Struktur Data</li>
+        <li>Algoritma &amp; Pemrograman</li>
+    </ul>
+</section>
+```
+
+3. description list
+```
+<section id="unorder-list">
+    <h2>Description List</h2>
+    <dl>
+        <dt>Fakultas Teknik</dt>
+        <dd>Teknik Industri</dd>
+        <dd>Teknik Informatika</dd>
+        <dd>Teknik Lingkungan</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+        <dd>Akuntansi</dd>
+        <dd>Manajemen</dd>
+        <dd>Bisnis Digital</dd>
+    </dl>
+</section>
+
+
+
+
 ## Soal dan jawaban
 ![gambar](soal_form_dropdown.png)
 
