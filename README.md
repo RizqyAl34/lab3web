@@ -3,7 +3,7 @@
 ### Nim : 312410424
 ### Kelas : TI.24.A3
 
-## List
+### List
 1. order list
 ```
 <section id="order-list">
@@ -15,6 +15,8 @@
     </ol>
 </section>
 ```
+## Hasil
+![gambar](output_order_list.png)
 
 2. unorder list
 ```
@@ -27,6 +29,8 @@
     </ul>
 </section>
 ```
+## Hasil
+![gambar](output_unorder_list.png)
 
 3. description list
 ```
@@ -43,11 +47,43 @@
         <dd>Bisnis Digital</dd>
     </dl>
 </section>
+```
+## Hasil
+![gambar](output_description_list.png)
+
+### Tabel
+```
+<table border="1" cellpading="4" cellspading="0">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Fakultas</th>
+                            <th>Program Studi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td rowspan="3">Teknik</td>
+                            <td>Teknik Informatika</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Teknik Industri</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Teknik Lingkungan</td>
+                        </tr>
+                    </tbody>
+                </table>
+```
+## Hasil
+![gambar](output_tabel.png)
 
 
 
-
-## Soal dan jawaban
+### Soal dan jawaban
 ![gambar](soal_form_dropdown.png)
 
 1. Form
