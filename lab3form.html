@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="proses.php" method="post"> 
+        <fieldset>
+            <legend>Login</legend>
+            <p>
+                <label for="uname">Username</label>
+                <input type="text" id="uname" name="Username">
+            </p>
+            <p>
+                <label for="passwd">Password</label>
+                <input type="password" id="passwd" name="password">
+            </p>
+            <p>
+                <label for="gndr">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+
+            </p>
+                <label for="Listbox">Listbox</label>
+                <table border="1" cellpading="6" cellspading="0">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Pilih Matkul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td><input type="checkbox" name="Matkul" value="Pemrogramana Web">Pemrograman Web</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td><input type="checkbox" name="Matkul" value="Statistika">Statistika</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td><input type="checkbox" name="Matkul" value="Basis Data">Basis Data</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td><input type="checkbox" name="Matkul" value="jaringan Komputer">Jaringan Komputer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+
+    <style>
+        form p >label {
+            display: inline-block;
+            width: 100px;
+        }
+        form input[type="text"], form textarea {
+            border: 1px solid #197a43;
+        }
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color:#197a43;
+            color: #fff;;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+
+        form td {
+            text-align: left;
+        }
+    </style>
+    
+</body>
+</html> 
